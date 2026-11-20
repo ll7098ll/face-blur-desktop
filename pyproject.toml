@@ -1,0 +1,21 @@
+[project]
+name = "face-blur-desktop"
+version = "1.0.0"
+description = "100% 오프라인 Windows 데스크톱 얼굴 자동 블러 및 EXIF 제거 앱"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "PySide6>=6.8.0",
+    "onnxruntime>=1.20.0",
+    "Pillow>=11.0.0",
+    "numpy>=2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+    "pyinstaller>=6.11.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
