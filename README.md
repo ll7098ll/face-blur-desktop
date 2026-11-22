@@ -87,3 +87,4 @@ uv run python build_exe.py
 
 - 애플리케이션 소스 코드는 [MIT License](LICENSE)를 따릅니다.
 - 내장된 얼굴 감지 모델 `models/det_10g.onnx`는 [InsightFace](https://github.com/deepinsight/insightface) (`buffalo_l`)의 사전 학습 모델이며, 해당 모델 가중치의 라이선스 정책(비상업적 연구·개인 용도 등)을 준수합니다.
+- 모델 가중치 라이선스 상세 안내 및 단일 실행 파일(`.exe`) 배포 시 주의사항은 [models/LICENSE.md](models/LICENSE.md)를 참고하세요.
